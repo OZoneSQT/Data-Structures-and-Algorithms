@@ -4,8 +4,6 @@
 //
 // C++ Program To Implement Radix Sort
 //
-
-#include "stdafx.h"
 #include<iostream>
 #include <cstdlib>
 using namespace std;
