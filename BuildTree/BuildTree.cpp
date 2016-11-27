@@ -108,7 +108,7 @@ int main()
 {
 	printf("Hello World!\n");
 	/* Inorder:  E O N F K L J C A I N H D G B
-	Preorder: H O E C L F N K J I A N G D B */
+	   Preorder: H O E C L F N K J I A N G D B */
 	char in[15] = { 'E', 'O', 'M', 'F', 'K', 'L', 'J', 'C', 'A', 'I', 'N', 'H', 'D', 'G', 'B' };
 	char pre[15] = { 'H', 'O', 'E', 'C', 'L', 'F', 'M', 'K', 'J', 'I', 'A', 'N', 'G', 'D', 'B' };
 	int len = sizeof(in) / sizeof(in[0]);
@@ -123,3 +123,7 @@ int main()
 	return 0;
 }
 
+/*
+char in[] = { 'S', 'A', 'E', 'U', 'Y', 'Q', 'R', 'P', 'D', 'F', 'K', 'L', 'M' };
+char pre[] = { 'F', 'A', 'S', 'Q', 'Y', 'E', 'U', 'P', 'R', 'D', 'K', 'L', 'M' };
+*/
