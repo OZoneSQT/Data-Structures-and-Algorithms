@@ -1,4 +1,4 @@
-// HashTable.cpp : Defines the entry point for the console application.
+// HashTableLinear.cpp : Defines the entry point for the console application.
 //
 
 /* program to construct hash table using open addressing */
